@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+import java.util.Scanner;
 public class Main {
   	// The main function reads the input in the required format.
   	// Just complete the solve function below.
@@ -21,6 +21,16 @@ public class Main {
     static String solve(int n){
       	// Your code goes here
         // n is the given input
+      Scanner sc=new Scanner (System.in);
+      int N=sc.nextint();
+      if(N/2==2 || N/2==7)
+      {
+      System.out.println("Special");      
+      }
+      else
+      {
+      System.out.println("Regular");
+      }
       
         String result = "Special";
         return result;
